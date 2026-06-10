@@ -1,18 +1,21 @@
 @charset "utf-8";
-/*background color and font */
+
+/* background color/font */
 body {
-   background color: hsl:(27,27%,72%);
+   background-color: hsl(27, 27%, 72%);
    font-family: Arial, Helvetica, sans-serif;
 }
-/*header*/
+
+/* header */
 header {
    text-align: center;
    font-size: 2em;
    font-weight: bold;
    padding: 20px;
    color: white;
-   background-color: rbg (222,128,60);
+   background-color: rgb(222, 128, 60);
 }
+
 /* Navigation Menu */
 nav ul {
    list-style-type: none;
@@ -32,9 +35,9 @@ nav ul li a {
    padding: 15px 20px;
    text-decoration: none;
    color: white;
-/* transition */
    transition: background-color 0.3s ease;
 }
+
 /* Hover Effect */
 nav ul li a:hover {
    background-color: orange;
@@ -48,40 +51,36 @@ section {
    background-color: white;
    border: 1px solid black;
    border-radius: 5px;
-   
-/* transition */
-    transition: transform 0.3s ease;
+   transition: transform 0.3s ease;
 }
 
-/* Zoom in on hover */
 section:hover {
-    transform: scale(1.02);
+   transform: scale(1.02);
 }
 
 /* Table */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid black;
-    margin: 20px 0;
+   width: 100%;
+   border-collapse: collapse;
+   border: 1px solid black;
+   margin: 20px 0;
 }
 
-th,
-td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: left;
+th, td {
+   border: 1px solid black;
+   padding: 10px;
+   text-align: left;
 }
 
 th {
-    background-color: orange;
-    color: white;
+   background-color: orange;
+   color: white;
 }
 
 caption {
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 10px;
+   font-weight: bold;
+   font-size: 1.2em;
+   margin-bottom: 10px;
 }
 
 /* Footer */
